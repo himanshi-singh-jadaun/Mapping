@@ -15,7 +15,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon index.js",
+    "start": "node index.js",
     "index": "npm start",
     "frontend": "npm start --prefix frontend",
     "dev": "concurrently \"npm run index\" \"npm run frontend\""
